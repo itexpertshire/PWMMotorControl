@@ -35,6 +35,7 @@ Contains the [RobotCarBlueDisplay](https://github.com/ArminJo/Arduino-RobotCar) 
 <br/>
 
 # Features
+- Adding Support for BTS7960 driver
 - The PWMDcMotor.cpp controls **brushed DC motors** by PWM using standard full bridge IC's like **[L298](https://www.instructables.com/L298-DC-Motor-Driver-DemosTutorial/)**, [**SparkFun Motor Driver - Dual TB6612FNG**](https://www.sparkfun.com/products/14451), or **[Adafruit_MotorShield](https://www.adafruit.com/product/1438)** (using PCA9685 -> 2 x TB6612).
 - The EncoderMotor.cpp.cpp controls a DC motor with attached encoder disc and slot-type photo interrupters to enable **driving a specified distance**.
 - The CarPWMMotorControl.cpp controls **2 motors simultaneously** like it is required for most **Robot Cars**.
